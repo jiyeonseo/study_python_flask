@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user</title>
+</head>
+<body>
+    {% if user %}
+        <div>hello {{ user }}</div>
+    {% else %}
+        <div>Please log in</div>
+    {% endif %}
+</body>
+</html>
